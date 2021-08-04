@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=s, initial-scale=1.0">
+    <title>First Assignment</title>
+    <style>
+           .table{
+               border-collapse: collapse;              
+               text-align: center;
+               border-color: crimson;
+               margin-top: 40px;
+           }
+           .table tr td{
+               border:1px solid crimson;
+               padding:5px;
+           }
+           .table thead tr{
+               background-color: white;
+               color:crimson;
+               padding: 10px;
+               font-size: 22px;
+               font-weight: 500;
+           }
+           .table thead tr td:hover{
+               background-color: crimson;
+               color:white;
+           }
+           .table tbody tr{
+            background-color: black;
+               color:white;
+               padding: 10px;
+           }
+           .table tbody tr td:hover{
+                 background-color: white;
+                 color: black;
+           }
+    </style>
+</head>
+<body>
+   <div>
+       <h1 style="text-align: center"><span style="color:crimson">H</span>TML <span style="color:crimson">T</span>ABLE</h1>
+    <div style="display: flex;justify-content: center">
+        <table border="1" class="table">
+            <thead>
+                <tr>
+                    <td>Level1</td>
+                    <td>Level2</td>
+                    <td>Level3</td>
+                    <td>INFO</td>
+                    <td>NAME</td>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td rowspan="6">System</td>
+                    <td rowspan="4">System Apps</td>
+                    <td rowspan="3" >SystemEnv</td>
+                    <td colspan="2">App Test</td>
+                </tr>
+                <tr>
+                    <td>App Memory</td>
+                    <td>Foo</td>
+                </tr>
+                <tr>
+                    <td>App Test</td>
+                    <td>Baar</td>
+                </tr>
+                <tr>
+                    <td>SystemEnv2</td>
+                    <td colspan="2">App Test</td>
+                   
+                </tr>
+                <tr>
+                    <td rowspan="2">System Memory</td>
+                    <td rowspan="2">Memory Test</td>
+                    <td>Memory Func</td>
+                    <td>Foo</td>
+                </tr>
+                <tr>
+                    <td>App Test</td>
+                    <td>Foo</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+   </div>
+</body>
+</html>
